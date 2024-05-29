@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>amiroudiallo-dev - {% block title %}{% endblock title %}</title>
+    <link
+      rel="stylesheet"
+      href="{{ url_for('static', filename='styles.css') }}"
+    />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0"
+      charset="utf-8"
+    />
+    <link rel="favicon" type="image/icon" href="board/images/resume-and-cv.png" />
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
+    />
+    <link rel="stylesheet" type="text/css" href="static/styles.css" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Roboto|Shadows+Into+Light"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    {% include("_social_network.html") %}
+    <section>
+      <header>{% block header %}{% endblock header %}</header>
+      <main>
+        {% block content %}
+        <p>No messages.</p>
+        {% endblock content %}
+      </main>
+    </section>
+  </body>
+</html>
