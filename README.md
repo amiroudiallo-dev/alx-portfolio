@@ -1,10 +1,10 @@
-### My portfolio project
+# My portfolio project
 
-#### Tools and Technologies
+## Tools and Technologies
 
 Below are the Tools and Technologies that we’ll be using:
-	[ ] Python
-	[ ] Flask
-	[ ] MySQL
-	[ ] Flask-Sqlalchemy
-	[ ] Model-View-Presenter(MVP)
+* Programming langage: **Python3**
+* Framework: **Flask**
+* Database: **SQLite**
+* Object-Relationnal-Mapping: **Flask-Sqlalchemy**
+* Architecture implementation: **Model-View-Presenter(MVP)**
